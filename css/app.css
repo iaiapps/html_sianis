@@ -37,6 +37,7 @@ body {
 }
 
 .square {
+  display: block;
   width: 46px;
   height: 46px;
 }
@@ -71,6 +72,11 @@ body {
   background-color: white;
 }
 
+.btn-menu:hover,
+.btn-menu:active,
+.btn-menu:visited {
+  transform: scale(0.97);
+}
 .img-menu {
   width: 90px;
   padding: 10px;
@@ -136,8 +142,7 @@ body {
 
   .card a img {
     text-align: center;
-    width: 60px;
-    background-color: #8256e1ff;
+    width: 65px;
     padding: 10px;
     border-radius: 5px;
   }
